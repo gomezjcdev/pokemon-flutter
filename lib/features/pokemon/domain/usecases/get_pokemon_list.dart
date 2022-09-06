@@ -1,4 +1,5 @@
 import 'package:dartz/dartz.dart';
+import 'package:equatable/equatable.dart';
 
 import '../../../../core/error/failures.dart';
 import '../../../../core/usecases/usecase.dart';
@@ -17,4 +18,7 @@ class GetPokemonList implements UseCase<List<PokemonListInfo>, NoParams> {
 
 }
 
-class NoParams {}
+class NoParams extends Equatable {
+  @override
+  List<Object?> get props => [];
+}

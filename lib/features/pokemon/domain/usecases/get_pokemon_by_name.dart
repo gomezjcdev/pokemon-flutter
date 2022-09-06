@@ -1,4 +1,5 @@
 import 'package:dartz/dartz.dart';
+import 'package:equatable/equatable.dart';
 
 import '../../../../core/error/failures.dart';
 import '../../../../core/usecases/usecase.dart';
@@ -17,8 +18,11 @@ class GetPokemonByName implements UseCase<Pokemon, Params> {
 
 }
 
-class Params {
+class Params extends Equatable {
   final String name;
 
-  Params(this.name);
+  const Params(this.name);
+
+  @override
+  List<Object?> get props => [];
 }
