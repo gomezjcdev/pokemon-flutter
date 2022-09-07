@@ -8,7 +8,7 @@ Project to know more about TDD and Clean architecture
 - http [link](https://pub.dev/packages/http)
 - flutter bloc [link](https://pub.dev/packages/flutter_bloc)
 - dartz [link](https://pub.dev/packages/dartz)
-- connectivity_plus [link](https://pub.dev/packages/connectivity_plus)
+- internet connection checker [link](https://pub.dev/packages/internet_connection_checker)
 - shared preferences [link](https://pub.dev/packages/shared_preferences)
 
 ### for testing
